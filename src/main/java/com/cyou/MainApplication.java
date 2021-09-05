@@ -1,8 +1,8 @@
 package com.cyou;
 
-import org.junit.Test;
 import com.cyou.bean.Person;
 import com.cyou.config.MainConfig;
+import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;
@@ -25,5 +25,6 @@ public class MainApplication {
 		String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
 		Arrays.stream(beanDefinitionNames).forEach(name-> System.out.println(name));
 		System.out.println("test");
+		System.out.println("test push");
 	}
 }
