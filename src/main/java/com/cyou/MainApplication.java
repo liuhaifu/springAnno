@@ -24,5 +24,6 @@ public class MainApplication {
 		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
 		String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
 		Arrays.stream(beanDefinitionNames).forEach(name-> System.out.println(name));
+		System.out.println("test");
 	}
 }
