@@ -26,6 +26,6 @@ public class MainApplication {
 		Arrays.stream(beanDefinitionNames).forEach(name-> System.out.println(name));
 		System.out.println("test");
 		System.out.println("test push");
-		System.out.println("test pull");
+		System.out.println("test pull2");
 	}
 }
